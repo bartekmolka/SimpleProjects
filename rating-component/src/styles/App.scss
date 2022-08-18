@@ -1,0 +1,17 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  top: 0;
+  lefT: 0;
+  font-family: $font;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $very-dark-blue;
+}

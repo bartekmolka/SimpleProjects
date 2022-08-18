@@ -1,0 +1,33 @@
+@import 'variables';
+
+.thankYou {
+    @include card;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 160px;
+}
+
+.select {
+    width: 180px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: $paragraph;
+    color: $primary;
+    background-color: hsla(216, 12%, 54%, .1);
+}
+
+.header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: $paragraph;
+    text-align: center;
+}

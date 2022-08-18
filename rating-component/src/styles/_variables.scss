@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Ubuntu:wght@300&display=swap');
+
+// Colors:
+$primary: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsl(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+
+//Font Families:
+$font: Overpass;
+
+//Font sizes:
+$paragraph: 15px;
+
+@mixin card {
+    width: 400px;
+    height: 400px;
+    background-color: $dark-blue;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    color: $white;
+    padding: 30px;
+
+    animation: card-animation 1s ease-in-out;
+}
+
+@keyframes card-animation {
+    0% {
+        opacity: 0;
+        transform: rotate(60deg) translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg) translateX(0);
+    }
+}
