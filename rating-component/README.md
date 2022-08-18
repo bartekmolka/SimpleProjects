@@ -1,9 +1,20 @@
 # Rating Component
 Made with React, Sass, Vite
 
-You can start project by running:
-- ``npm install``
--``vite``
+
+### Setup
+You need to install node modules first
+```
+npm install
+```
+### You can start project by running:
+```
+npm run dev
+```
+or
+```
+vite
+```
 
 ## Preview:
  
