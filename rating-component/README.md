@@ -7,7 +7,7 @@ You need to install node modules first
 ```
 npm install
 ```
-### You can start project by running:
+### Then start project by running:
 ```
 npm run dev
 ```
